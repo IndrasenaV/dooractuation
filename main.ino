@@ -14,7 +14,7 @@ void loop() {
  delay(2000); // wait 2 seconds
  stopmotor();//Deactivate both relays to brake the motor
  delay(2000);// wait 2 seconds
-// movebackward();//Activate the relay the other direction, they must be different to move the motor
+ movebackward();//Activate the relay the other direction, they must be different to move the motor
 // delay(2000);// wait 2 seconds
 // stopmotor();
 }
